@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>日付計算</title>
+  <link rel="stylesheet" href="styleshhet.css">
+</head>
+<body>
+  
+  <form>
+    <div class="form">
+      西暦　
+      <input type="tel" id="y" maxlength="4" required>
+        年
+      <input type="tel" id="m" maxlength="2" required>
+        月
+
+      <input type="tel" id="d" maxlength="2" required>
+      日
+      　　から
+      <h1 class="error" id="error1"></h1>
+    </div>
+    
+    <div class="form">
+      <input type="tel" id="afterdays">日後は？
+      <h1 class="error" id="error2"></h1>
+    </div>
+
+    
+
+    <div class="form">
+      <input type="button" value="計算" id="calc">
+      <h1 id="result"></h1>
+    </div>
+
+  </form>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
